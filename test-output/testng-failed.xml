@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="FireFox"/>
+  <listeners>
+    <listener class-name="assignment_Question2.TestNG_Listeners"/>
+  </listeners>
+  <test name="Directory Page(failed)">
+    <classes>
+      <class name="assignment_Question1.LoginPage_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.LoginPage_Validation -->
+      <class name="assignment_Question1.DirectoryPage_Validation">
+        <methods>
+          <include name="Directory_Search"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.DirectoryPage_Validation -->
+      <class name="assignment_Question1.AdminPage_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.AdminPage_Validation -->
+      <class name="assignment_Question1.AssignLeave_Validation">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.AssignLeave_Validation -->
+    </classes>
+  </test> <!-- Directory Page(failed) -->
+  <test name="AssignLeave Page(failed)">
+    <classes>
+      <class name="assignment_Question1.LoginPage_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.LoginPage_Validation -->
+      <class name="assignment_Question1.DirectoryPage_Validation">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.DirectoryPage_Validation -->
+      <class name="assignment_Question1.AdminPage_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.AdminPage_Validation -->
+      <class name="assignment_Question1.AssignLeave_Validation">
+        <methods>
+          <include name="AssignLeave"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment_Question1.AssignLeave_Validation -->
+    </classes>
+  </test> <!-- AssignLeave Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

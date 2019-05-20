@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134289" started-at="2019-05-18T14:01:00Z" finished-at="2019-05-18T14:03:15Z">
+    <groups>
+    </groups>
+    <test name="Login Page" duration-ms="25751" started-at="2019-05-18T14:01:00Z" finished-at="2019-05-18T14:01:26Z">
+      <class name="assignment_Question1.LoginPage_Validation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:assignment_Question1.LoginPage_Validation@146ba0ac]" name="setUp" is-config="true" duration-ms="18569" started-at="2019-05-18T19:31:00Z" finished-at="2019-05-18T19:31:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_Test()[pri:0, instance:assignment_Question1.LoginPage_Validation@146ba0ac]" name="Login_Test" duration-ms="4646" started-at="2019-05-18T19:31:19Z" finished-at="2019-05-18T19:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment_Question1.LoginPage_Validation@146ba0ac]" name="tearDown" is-config="true" duration-ms="2510" started-at="2019-05-18T19:31:24Z" finished-at="2019-05-18T19:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment_Question1.LoginPage_Validation -->
+    </test> <!-- Login Page -->
+    <test name="Directory Page" duration-ms="30809" started-at="2019-05-18T14:01:26Z" finished-at="2019-05-18T14:01:57Z">
+      <class name="assignment_Question1.DirectoryPage_Validation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:assignment_Question1.DirectoryPage_Validation@5700d6b1]" name="setUp" is-config="true" duration-ms="16213" started-at="2019-05-18T19:31:26Z" finished-at="2019-05-18T19:31:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Directory_Search()[pri:0, instance:assignment_Question1.DirectoryPage_Validation@5700d6b1]" name="Directory_Search" duration-ms="12247" started-at="2019-05-18T19:31:42Z" finished-at="2019-05-18T19:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Directory_Search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment_Question1.DirectoryPage_Validation@5700d6b1]" name="tearDown" is-config="true" duration-ms="2346" started-at="2019-05-18T19:31:55Z" finished-at="2019-05-18T19:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment_Question1.DirectoryPage_Validation -->
+    </test> <!-- Directory Page -->
+    <test name="Admin Page" duration-ms="34314" started-at="2019-05-18T14:01:57Z" finished-at="2019-05-18T14:02:31Z">
+      <class name="assignment_Question1.AdminPage_Validation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:assignment_Question1.AdminPage_Validation@887af79]" name="setUp" is-config="true" duration-ms="15777" started-at="2019-05-18T19:31:57Z" finished-at="2019-05-18T19:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Admin_Search()[pri:0, instance:assignment_Question1.AdminPage_Validation@887af79]" name="Admin_Search" duration-ms="16159" started-at="2019-05-18T19:32:13Z" finished-at="2019-05-18T19:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment_Question1.AdminPage_Validation@887af79]" name="tearDown" is-config="true" duration-ms="2374" started-at="2019-05-18T19:32:29Z" finished-at="2019-05-18T19:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment_Question1.AdminPage_Validation -->
+    </test> <!-- Admin Page -->
+    <test name="AssignLeave Page" duration-ms="43310" started-at="2019-05-18T14:02:31Z" finished-at="2019-05-18T14:03:15Z">
+      <class name="assignment_Question1.AssignLeave_Validation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:assignment_Question1.AssignLeave_Validation@5ae63ade]" name="setUp" is-config="true" duration-ms="16437" started-at="2019-05-18T19:32:31Z" finished-at="2019-05-18T19:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AssignLeave()[pri:0, instance:assignment_Question1.AssignLeave_Validation@5ae63ade]" name="AssignLeave" duration-ms="24411" started-at="2019-05-18T19:32:48Z" finished-at="2019-05-18T19:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignLeave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment_Question1.AssignLeave_Validation@5ae63ade]" name="tearDown" is-config="true" duration-ms="2460" started-at="2019-05-18T19:33:12Z" finished-at="2019-05-18T19:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment_Question1.AssignLeave_Validation -->
+    </test> <!-- AssignLeave Page -->
+  </suite> <!-- Suite -->
+</testng-results>
